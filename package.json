@@ -1,0 +1,28 @@
+{
+  "name": "backend-express-multer-sharp-firebase-storage-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "clear && nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": "https://github.com/rodrigocamarano/backend-express-multer-sharp-firebase-storage-example.git",
+  "author": "Rodrigo Camarano <rodrigocamarano@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fast-crc32c": "^2.0.0",
+    "firebase-admin": "^8.12.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "sharp": "^0.25.3",
+    "uuid": "^8.0.0"
+  }
+}
